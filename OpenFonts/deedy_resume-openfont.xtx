@@ -47,25 +47,18 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
+\usepackage{multicol}
 
 \pagestyle{fancy}
 \fancyhf{}
 
 \begin{document}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Kyle}{Kavanagh}{
+\namesection{Kyle D.}{Kavanagh}{
 \href{mailto:kdkavanagh@gmail.com}{kdkavanagh@gmail.com} | 248.914.8864
 }
 
@@ -75,7 +68,6 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -85,49 +77,18 @@
 
 \subsection{University of Michigan}
 \descript{B.S.E Computer Science}
-\descript{Cum Laude}
+\descript{Cum Laude | Cum. GPA: 3.3 / 4.0 }
 \location{May 2014 | Ann Arbor, MI}
 College of Engineering \\
 Financial Mathematics Minor\\
-\location{ Cum. GPA: 3.3 / 4.0 }
+Courses: Operating Systems \textbullet{} Software Engineering \textbullet{} Artificial Intelligence \textbullet{} Logic Design and Computer Organization
+\textbullet{} Numerical Methods for Finance \textbullet{} Discrete Math \textbullet{} User Interface Design\\
 \sectionsep
 
 \subsection{Andover High School}
 \location{June 2010 |  Bloomfield Hills, MI}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Coursework}
-Operating Systems\\
-Software Engineering\\
-Artificial Intelligence\\
-Logic Design and Computer Organization\\
-Numerical Methods for Finance \\
-Discrete Math \\
-User Interface Design\\
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Technologies}
-Java (Unsafe) \textbullet{} C++ \textbullet{} R \textbullet{} Matlab \\
-Javascript (Backbone.js) \textbullet{} MongoDB \\
-Tibco RV/FTL \textbullet{} Aeron \\
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN TWO
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.66\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -158,8 +119,6 @@ Responsible for leading recruiting, interviewing, and hiring of summer interns a
 Regularly work with HR and division leadership to improve the recruiting and hiring process.
 Managed six summer interns (2 directly, 4 indirectly) during the summer of 2015.
 
-\item Owner of a latency tracking and analysis application that maintains hundreds of millions of
-nanosecond-precision performance metrics internal to the matching engine and provides simple analysis tools to end users.
 \end{tightemize}
 \sectionsep
 
@@ -175,7 +134,7 @@ MongoDB, Google GWT, and Scala to design and build a front-end
 for the performance monitoring framework
 \item Employed mathematical and statistical methods to determine the
 change in performance between code versions
-\end{tightemize}order entry
+\end{tightemize}
 \sectionsep
 
 \runsubsection{JP Morgan Chase}
@@ -206,14 +165,6 @@ company-wide intranet and internet sites
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards}
-\begin{tabular}{lll}
-2014, 2015     & Excellence Award, CME Group  \\
-2013     & Dean's List, University of Michigan, College of Engineering \\
-2010     & IBM Thomas J. Watson Scholar \\
-2008     & Eagle Scout \\
-\end{tabular}
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
@@ -225,5 +176,22 @@ Oct 2015 & Filed, Pending & Systems and Methods for Calculating a Latency of a T
 May 2015 & Filed, Pending & Concurrent Lock Free Write Operations for Use with Multi-threaded Inline File Logging  \\
 \end{tabular}
 
-\end{minipage}
+
+\begin{multicols}{3}
+\section{Technologies}
+Java (Unsafe) \textbullet{} C++ \textbullet{} R \textbullet{} Matlab \\
+Javascript (Backbone.js) \textbullet{} MongoDB \\
+Tibco RV/FTL \textbullet{} Aeron \\
+
+\columnbreak
+
+\section{Awards}
+\begin{tabular}{ll}
+2014, 2015     & Excellence Award, CME Group  \\
+2013     & Dean's List, University of Michigan, College of Engineering \\
+2010     & IBM Thomas J. Watson Scholar \\
+2008     & Eagle Scout \\
+\end{tabular}
+\end{multicols}
+
 \end{document}  \documentclass[]{article}
