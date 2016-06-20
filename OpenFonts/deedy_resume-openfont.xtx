@@ -59,7 +59,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Kyle D.}{Kavanagh}{
-\href{mailto:kdkavanagh@gmail.com}{kdkavanagh@gmail.com} | 248.914.8864
+\href{mailto:kdkavanagh@gmail.com}{kdkavanagh@gmail.com} | 248.914.8864 | \href{http://kdkavanagh.github.io/}{kdkavanagh.github.io}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,18 +75,10 @@
 
 \section{Education}
 
-\subsection{University of Michigan}
-\descript{B.S.E Computer Science}
-\descript{Cum Laude | Cum. GPA: 3.3 / 4.0 }
+\subsection{University of Michigan, College of Engineering}
+\descript{B.S.E Computer Science, Financial Mathematics Minor}
+\descript{Cum Laude}
 \location{May 2014 | Ann Arbor, MI}
-College of Engineering \\
-Financial Mathematics Minor\\
-Courses: Operating Systems \textbullet{} Software Engineering \textbullet{} Artificial Intelligence \textbullet{} Logic Design and Computer Organization
-\textbullet{} Numerical Methods for Finance \textbullet{} Discrete Math \textbullet{} User Interface Design\\
-\sectionsep
-
-\subsection{Andover High School}
-\location{June 2010 |  Bloomfield Hills, MI}
 \sectionsep
 
 
@@ -97,41 +89,39 @@ Courses: Operating Systems \textbullet{} Software Engineering \textbullet{} Arti
 \section{Experience}
 \runsubsection{CME Group}
 \descript{| Match Engine Development | Software Engineer }
-\location{SE II: Jan 2015 - Present | Chicago, IL}
-\location{SE I: July 2014 - Jan 2015}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{July 2014 - Present | Chicago, IL}
+
 \begin{tightemize}
 \item Responsible for ensuring consistent performance of CME's low-latency matching engine at the core of CME's Globex Electronic Trading Platform.
 
-\item Analyze performance data and implement changes to the Match Engine to reduce latency and improve response-time consistency.
-
 \item Assisted other teams with performance analysis and improvements during the launches of CME's MDP 3.0 market data and Direct Connect order entry initiatives.
+Provided scientific and systematic latency profiling, business message optimization, and order entry/market data parity expertise.
 
-\item Developed a Monte-Carlo Markov-Chain algorithm to accurately forecast Globex order-entry latencies.
+\item Designed and leading the implementation of the architecture for CME's hybrid cloud infrastructure.
+The design allows for realtime trading data to be reliably piped to AWS for further processing.
+Architecture is designed to ensure an easy and simple transition to the cloud for applications currently running in a private data center.
+
+\item Developed a algorithm to accurately forecast Globex order-entry latencies.
 Model is used to determine if abnormal latencies were expected/unexpected,
 as well as to determine the impact of changing service-time performance on overall response-time.
 
 \item Designed and built a library to collect and record performance metrics from the Match Engine.
-The library minimizes the observer effect by utilizing an algorithm to efficiently perform concurrent file writes.
+The library minimizes the observer effect by utilizing an algorithm that efficiently performs concurrent file writes.
 
 \item Leader of the Match Engine's summer intern and entry-level hire programs.
 Responsible for leading recruiting, interviewing, and hiring of summer interns and entry-level software engineers.
 Regularly work with HR and division leadership to improve the recruiting and hiring process.
-Managed six summer interns (2 directly, 4 indirectly) during the summer of 2015.
+Managed six summer interns during the summer of 2015.
 
 \end{tightemize}
 \sectionsep
 
 \runsubsection{CME Group}
 \descript{| Match Engine Development | Software Engineering Intern }
-\location{Oct 2013 - May 2014 | Ann Arbor, MI}
-\location{May 2012 - April 2013 | Chicago, IL}
+\location{May 2012 - April 2013, Oct 2013 - May 2014 | Ann Arbor, MI}
 \begin{tightemize}
 \item Designed and implemented a framework to measure and report
 the performance of the Match Engine
-\item Utilized Agile design practices and technologies such as
-MongoDB, Google GWT, and Scala to design and build a front-end
-for the performance monitoring framework
 \item Employed mathematical and statistical methods to determine the
 change in performance between code versions
 \end{tightemize}
@@ -139,10 +129,8 @@ change in performance between code versions
 
 \runsubsection{JP Morgan Chase}
 \descript{| Treasury \& Security Services | Summer Analyst }
-\location{June 2013 – August 2013 | Chicago, IL}
-\begin{tightemize}\item Member of the Payable Web Services development team, a web
-application that helps businesses manage check payables and
-mitigate check fraud
+\location{June 2013 – Aug 2013 | Chicago, IL}
+\begin{tightemize}\item Member of the Payable Web Services development team
 \item Created an all-in-one quantitative equity research platform to
 parse historical market data, build order books, and backtest potential quantitative trading strategies
 \item Implemented performance improvements that resulted increased
@@ -153,12 +141,6 @@ performance from the minute-level to the microsecond-level
 \runsubsection{Kaufman Financial Group}
 \descript{| IT Analyst Intern }
 \location{May 2011 – May 2012 | Farmington Hills, MI}
-\begin{tightemize}
-\item Identified areas of improvement, gathered business requirements,
-and developed software solutions designed to make the company more efficient and profitable
-\item Led front-end development of new Microsoft SharePoint based,
-company-wide intranet and internet sites
-\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -171,7 +153,7 @@ company-wide intranet and internet sites
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Patents}
-\begin{tabular}{p{0.2\linewidth}p{0.2\linewidth}p{0.5\linewidth}}
+\begin{tabular}{p{0.1\linewidth}p{0.15\linewidth}p{0.7\linewidth}}
 Oct 2015 & Filed, Pending & Systems and Methods for Calculating a Latency of a Transaction Processing System  \\
 May 2015 & Filed, Pending & Concurrent Lock Free Write Operations for Use with Multi-threaded Inline File Logging  \\
 \end{tabular}
