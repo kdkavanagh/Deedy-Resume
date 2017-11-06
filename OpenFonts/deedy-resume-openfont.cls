@@ -73,5 +73,5 @@
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep2pt \parskip0pt \parsep0pt}
+\vspace{-\topsep}\begin{itemize}\itemsep5pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}

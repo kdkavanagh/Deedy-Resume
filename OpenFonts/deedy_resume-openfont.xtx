@@ -91,25 +91,26 @@
 \location{July 2014 - Present | Chicago, IL}
 
 \begin{tightemize}
-\item Directly responsible for ensuring consistent performance of CME's Globex Electronic Trading Platform, including Market Segment Gateways, Matching Engines, and Market Data Components.
-Lead a team of five performance engineers responsible for the performance of all non-Globex software applications at CME.
+\item Directly responsible for ensuring consistent performance and capacity of CME's low-latency Globex Electronic Trading Platform.
+Regularly provide scientific and systematic latency profiling, business message optimization, and order entry/market data parity expertise.
+Led the design of CME's new iLink 3.0 binary message format and assisted in the architecture of new fault tolerance designs.
+
+\item Lead a team of five performance engineers responsible for the performance of all non-Globex software applications at CME.
 Working to establish a culture of performance engineering outside of the Globex team and inline performance directly into other teams' SLDCs.
 
 \item Serve as the Globex team's representative to the COO's cross-functional Market Microstructure Working Group, responsible for shaping the direction of CME's electronic markets.
 Regularly provide insight and analysis on subjects relating to participant behavior (e.g. tick-to-trade, messaging behavior, and microwave activities), as well as CME market dynamics (e.g. customer concentration, correlation analysis, and impacts of latency).
-The working group is tasked with defining CME's official positions on market structure topics and the team's work is regularly presented to CME's Management Team and Board of Directors.
+The working group is tasked with defining CME's official positions on market structure topics and the team's work is regularly presented to CME's Management Team.
 
-\item Assisted teams with performance analysis and improvements during the launches of CME's MDP 3.0 market data and Direct Connect order entry initiatives.
-Provided scientific and systematic latency profiling, business message optimization, and order entry/market data parity expertise.
-Led the design of CME's new iLink 3.0 binary message format and assisted in the architecture of new fault tolerance designs.
+\item Head of the Telemetry effort (\href{http://beta.doyoutelemetry.com/}{beta.doyoutelemetry.com}) as a part of CME's internal startup incubator to open-source/commercialize the performance management and optimization software originally built for the Matching Engine.
 
-\item Designed and lead the implementation of the architecture for CME's hybrid cloud infrastructure.
+\item Designed and led the implementation of the architecture for CME's hybrid cloud infrastructure.
 The design allows for realtime trading data to be reliably piped to AWS for further processing.
-Architecture is designed to ensure an easy and simple transition to the cloud for applications currently running in a private data center.
+Architecture is designed to ensure a simple transition to the cloud for applications currently running in a private data center.
 
-\item Developed a algorithm to accurately forecast Globex order-entry latencies.
-Model is used to determine if abnormal latencies were expected/unexpected,
-as well as to determine the impact of changing service-time performance on overall response-time.
+\item Leader of the Match Engine's summer intern and entry-level hire programs.
+Responsible for leading recruiting, interviewing, and hiring of summer interns and entry-level software engineers.
+Regularly work with HR and division leadership to improve the recruiting and hiring process.
 
 \end{tightemize}
 \sectionsep
@@ -124,6 +125,11 @@ as well as to determine the impact of changing service-time performance on overa
 \location{June 2013 – Aug 2013 | Chicago, IL}
 \sectionsep
 
+\runsubsection{Kaufman Financial Group}
+\descript{| IT Analyst Intern }
+\location{May 2011 – May 2012 | Farmington Hills, MI}
+\sectionsep
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -135,26 +141,15 @@ as well as to determine the impact of changing service-time performance on overa
 
 \section{Patents}
 \begin{tabular}{p{0.1\linewidth}p{0.15\linewidth}p{0.7\linewidth}}
-Oct 2017 & Filed, Pending & Selective Dynamic Tracer Message Logging Based on Realtime Bottleneck Detection  \\
-Oct 2017 & Filed, Pending & Selective Database Indexing in Performance Measurement Systems  \\
-Sept 2017 & Filed, Pending & Compressed Message Tracing and Parsing  \\
-July 2017 & Filed, Pending & Concurrent Write Operations for use with Multi-threaded Inline File Logging  \\
-April 2017 & Filed, Pending & Mitigation of Latency Disparity in a Data Transaction Processing System  \\
-April 2017 & Filed, Pending & Data Compression of Electronic Data Transaction Request Messages  \\
-March 2017 & Filed, Pending & Communications Protocol Based Message Identification System  \\
-Nov 2016 & Granted & Display Screen with Graphical User Interface for Trading System Data  \\
-Oct 2016 & Filed, Pending & Resource Allocation Based on Transaction Processor Classification  \\
-Sept 2016 & Filed, Pending & Message Cancellation Based on Data Transaction Processing System Latency  \\
-Oct 2015 & Filed, Pending & Systems and Methods for Calculating a Latency of a Transaction Processing System  \\
-May 2015 & Filed, Pending & Concurrent Lock Free Write Operations for Use with Multi-threaded Inline File Logging  \\
+Nov 2016 & Granted & Design Patent - Display Screen with Graphical User Interface for Trading System Data  \\
+2015-2017 & Filed, Pending & 12 currently pending applications relating to electronic trading, software and network performance, messaging optimization, and UI/Design.  \\
 \end{tabular}
-
 
 \begin{multicols}{3}
 \section{Technologies}
-Java (Unsafe) \textbullet{} R \textbullet{} C++ \\
-Javascript (Backbone.js) \textbullet{} MongoDB \\
-Tibco RV/FTL \textbullet{} Aeron \\
+\textbullet{} Java (Unsafe) \textbullet{} R \textbullet{} C++ \\
+\textbullet{} Javascript (Backbone.js) \textbullet{} MongoDB \\
+\textbullet{} Corvil \textbullet{} Tibco RV/FTL \textbullet{} Aeron \\
 
 \columnbreak
 
