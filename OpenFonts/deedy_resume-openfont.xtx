@@ -106,7 +106,7 @@ The working group is tasked with defining CME's official positions on market str
 
 \item Designed and led the implementation of the architecture for CME's hybrid cloud infrastructure.
 The design allows for realtime trading data to be reliably piped to AWS for further processing.
-Architecture is designed to ensure a simple transition to the cloud for applications currently running in a private data center.
+The architecture is designed to ensure a simple transition to the cloud for applications currently running in a private data center.
 
 \item Leader of the Match Engine's summer intern and entry-level hire programs.
 Responsible for leading recruiting, interviewing, and hiring of summer interns and entry-level software engineers.
