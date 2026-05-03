@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Kyle D.}{Kavanagh}{
+\href{mailto:kdkavanagh@gmail.com}{kdkavanagh@gmail.com} | 248.914.8864 | Chicago, IL  
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Jump Trading}
+
+\descript{Head of Market Structure | Jan 2025 - Present}
+\begin{tightemize}
+\item Responsible for forming and publicly advocating for Jump's opinions on market structure topics such as exchange design + implementation, product specifications, and regulatory proposals.
+\item Regularly interact with exchanges, regulators, and governments globally, conveying deeply nuanced technical topics to non-technical audiences.
+\item Lead internal initiatives to adapt Jump's trading systems to specific exchange nuance, in conjunction with trading teams, Performance Engineering, and Core Development.
+\end{tightemize}
+
+\descript{Lead Quant Developer | Trading Team | Jan 2025 - Present}
+\begin{tightemize}
+\item Principle engineer for a mid-size futures trading team.
+\item Responsible for setting the direction for the team's research (python) and execution (C++) platforms and managing a team of experienced engineers.
+\item Authored the team's execution stack employing a custom python DSL/compiler atop a low-latency C++/CUDA engine, making it easy for researchers to test new features without sacraficing performance in production.
+\item Designed the team's Torch-based research platform with strong reproducibility guarantees and modular components that independently map onto Jump's HPC grid.
+\item Designed, implemented, and maintain the firm's most popular grid-compute tooling, allowing researchers to easily fan compute jobs out across a Slurm cluster.  Adoption grew by word-of-mouth to 500+ users firmwide.
+\end{tightemize}
+
+\descript{Lead Quant Developer | Central Trading \& Research | July 2019 - Jan 2026}
+\begin{tightemize}
+\item US lead for 'Central Trading \& Research', a "special projects" and central trading team responsible for microstructure research and proprietary feed design.
+\item Designed Jump's exchange-feed normalizations used in MF/LF contexts, prioritizing information content and ease-of-use over lowest-latency.
+\item Pioneered a new data warehouse paradigm across the firm, allowing researchers to work with datasets more friendly than raw PCAPs.
+\item Led the design and implementation of Jump's USEQ ISO trading framework.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Coinbase}
+\descript{| Match Engine Product and Development | Sr Trading Systems Engineer }
+\location{April 2018 - April 2019 | Chicago, IL}
+
+\begin{tightemize}
+\item Lead distributed systems architect and engineer for Coinbase Markets' low-latency electronic trading platform.
+\item Designed a full-featured exchange architecture from first-principles. The architecture provided low-latency operation with full fault tolerance and 24x7 capabilities.  Designed bespoke Order Entry and Market Data protocols and related messaging libraries as interfaces to the exchange.  Authored an event-sourced Matching Engine for the new platform.
+\item Helped open the Chicago office and recruit and hire over twenty people across product, software, x86, networking, and physical infrastructure to build a fully self-sufficient exchange operation.
+
+\end{tightemize}
+\sectionsep
+\runsubsection{CME Group}
+\descript{| Match Engine Development | Lead Software Engineer }
+\location{July 2014 - April 2018 | Chicago, IL}
+
+\begin{tightemize}
+
+\item Served as the Globex team's representative to the COO's cross-functional Market Microstructure Working Group, responsible for shaping the direction of CME's markets and defining CME's official positions on market structure topics.
+
+\item Responsible for improving the performance and capacity of CME's low-latency Globex Electronic Trading Platform.
+
+\item Designed and led the implementation of the architecture for CME's original (internal) hybrid cloud infrastructure.
+
+\end{tightemize}
+\sectionsep
+
+
+
+\noindent\begin{minipage}[t]{0.35\linewidth}
+\section{Education}
+
+\subsection{University of Michigan}
+\descript{College of Engineering \\ May 2014 | Ann Arbor, MI}
+B.S.E Computer Science, Cum Laude \\
+Financial Mathematics Minor
+\end{minipage}%
+\hfill%
+\begin{minipage}[t]{0.65\linewidth}
+\section{Patents \& Awards}
+\begin{tabular}{p{0.2\linewidth}p{0.77\linewidth}}
+2015-2025 & 27 granted patents, 14 currently pending relating to electronic trading, software and network performance, messaging optimization, and UI/Design.  \\
+2008     & Eagle Scout \\
+\end{tabular}
+\end{minipage}
+
+
+
+
+\end{document}  \documentclass[]{article}
