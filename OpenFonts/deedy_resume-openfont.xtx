@@ -86,31 +86,37 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{CME Group}
-\descript{| Match Engine Development | Head of Performance Engineering, Sr. Software Engineer }
-\location{July 2014 - Present | Chicago, IL}
+\runsubsection{Coinbase}
+\descript{| Match Engine Product and Development | Sr Trading Systems Engineer }
+\location{April 2018 - April 2019 | Chicago, IL}
 
 \begin{tightemize}
+\item Lead distributed systems architect and engineer for Coinbase Markets' low-latency electronic trading platform.
+\item Designed a full-featured exchange architecture from first-principles. The architecture provided low-latency operation with full fault tolerance and observability to allow for 24x7 operation.  The design also included bespoke Order Entry and Market Data protocols and related messaging libraries as interfaces to the exchange.  Authored an event-sourced Matching Engine for the new platform.
+\item Helped open the Chicago office and recruit and hire over twenty people across product, software, x86, networking, and physical infrastructure to build a fully self-sufficient exchange operation.
+
+\end{tightemize}
+\sectionsep
+\runsubsection{CME Group}
+\descript{| Match Engine Development | Lead Software Engineer }
+\location{July 2014 - April 2018 | Chicago, IL}
+
+\begin{tightemize}
+
+\item Served as the Globex team's representative to the COO's cross-functional Market Microstructure Working Group, responsible for shaping the direction of CME's electronic markets and defining CME's official positions on market structure topics.
+Regularly provided insight and analysis on subjects relating to participant behavior (e.g. tick-to-trade, messaging behavior, microwave activities), as well as CME market dynamics (e.g. customer concentration, correlation analysis).
+
 \item Directly responsible for ensuring consistent performance and capacity of CME's low-latency Globex Electronic Trading Platform.
-Regularly provide scientific and systematic latency profiling, business message optimization, and order entry/market data parity expertise.
+Performed scientific and systematic latency profiling, business message optimization, and order entry/market data parity expertise.
 Led the design of CME's new iLink 3.0 binary message format and assisted in the architecture of new fault tolerance designs.
 
-\item Lead a team of five performance engineers responsible for the performance of all non-Globex software applications at CME.
-Working to establish a culture of performance engineering outside of the Globex team and inline performance directly into other teams' SLDCs.
-
-\item Serve as the Globex team's representative to the COO's cross-functional Market Microstructure Working Group, responsible for shaping the direction of CME's electronic markets.
-Regularly provide insight and analysis on subjects relating to participant behavior (e.g. tick-to-trade, messaging behavior, and microwave activities), as well as CME market dynamics (e.g. customer concentration, correlation analysis, and impacts of latency).
-The working group is tasked with defining CME's official positions on market structure topics and the team's work is regularly presented to CME's Management Team.
-
-\item Head of the Telemetry effort (\href{http://beta.doyoutelemetry.com/}{beta.doyoutelemetry.com}) as a part of CME's internal startup incubator to open-source/commercialize the performance management and optimization software originally built for the Matching Engine.
+\item Head of the Telemetry effort as a part of CME's internal startup incubator to open-source/commercialize the performance management and optimization software originally built for the Matching Engine.
 
 \item Designed and led the implementation of the architecture for CME's hybrid cloud infrastructure.
-The design allows for realtime trading data to be reliably piped to AWS for further processing.
-The architecture is designed to ensure a simple transition to the cloud for applications currently running in a private data center.
+The design allows for realtime trading data to be reliably piped to AWS for further processing and is designed to ensure a simple transition to the cloud from a private data center.
 
 \item Leader of the Match Engine's summer intern and entry-level hire programs.
-Responsible for leading recruiting, interviewing, and hiring of summer interns and entry-level software engineers.
-Regularly work with HR and division leadership to improve the recruiting and hiring process.
+Regularly worked with HR and division leadership to improve the recruiting and hiring process.
 
 \end{tightemize}
 \sectionsep
@@ -125,11 +131,6 @@ Regularly work with HR and division leadership to improve the recruiting and hir
 \location{June 2013 – Aug 2013 | Chicago, IL}
 \sectionsep
 
-\runsubsection{Kaufman Financial Group}
-\descript{| IT Analyst Intern }
-\location{May 2011 – May 2012 | Farmington Hills, MI}
-\sectionsep
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -140,14 +141,16 @@ Regularly work with HR and division leadership to improve the recruiting and hir
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Patents}
-\begin{tabular}{p{0.1\linewidth}p{0.15\linewidth}p{0.7\linewidth}}
-Nov 2016 & Granted & Design Patent - Display Screen with Graphical User Interface for Trading System Data  \\
-2015-2017 & Filed, Pending & 12 currently pending applications relating to electronic trading, software and network performance, messaging optimization, and UI/Design.  \\
+\begin{tabular}{p{0.2\linewidth}p{0.11\linewidth}p{0.68\linewidth}}
+Dec 2018 & Granted & Resource allocation based on transaction processor classification \\
+Mar 2018 & Granted & Data compression of electronic data transaction request messages \\
+Nov 2016, Jan 2018 & Granted & Design Patent - Display Screen with Graphical User Interface for Trading System Data  \\
+2015-2018 & Filed, Pending & Over 15 applications currently pending relating to electronic trading, software and network performance, messaging optimization, and UI/Design.  \\
 \end{tabular}
 
 \begin{multicols}{3}
 \section{Technologies}
-\textbullet{} Java (Unsafe) \textbullet{} R \textbullet{} C++ \\
+\textbullet{} Low latency Java \textbullet{} R \textbullet{} C++ \\
 \textbullet{} Javascript (Backbone.js) \textbullet{} MongoDB \\
 \textbullet{} Corvil \textbullet{} Tibco RV/FTL \textbullet{} Aeron \\
 
@@ -156,7 +159,6 @@ Nov 2016 & Granted & Design Patent - Display Screen with Graphical User Interfac
 \section{Awards}
 \begin{tabular}{ll}
 2014-2017     & Excellence Award, CME Group  \\
-2013     & Dean's List, University of Michigan, College of Engineering \\
 2010     & IBM Thomas J. Watson Scholar \\
 2008     & Eagle Scout \\
 \end{tabular}
